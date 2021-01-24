@@ -1,0 +1,11 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Compile Include="SimpleHttpServer.cs" />
+	</ItemGroup>
+	<Target Name="Build">
+		<Csc Sources="@(Compile)"/>  
+	</Target>
+	<PropertyGroup>
+		<AssemblyName>SimpleHttpServer</AssemblyName>
+	</PropertyGroup>
+</Project>
