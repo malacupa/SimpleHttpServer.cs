@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Based on HttpServer.cs from Benjamin N. Summerton, thx - https://gist.github.com/define-private-public/d05bc52dd0bed1c4699d49e2737e80e7
  *
  * Compile how-to:
- * 	 - e.g.: c:\windows\microsoft.net\framework64\v4.0.30319\csc.exe /out:.\httpserver.exe .\SimpleHttpServer.exe
+ * 	 - e.g.: c:\windows\microsoft.net\framework64\v4.0.30319\csc.exe /out:.\httpserver.exe .\SimpleHttpServer.cs
  *
  * Upload how-to:
  *   - Access via browser on your listening port
