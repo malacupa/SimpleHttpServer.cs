@@ -29,7 +29,7 @@ or use web browser
 ## Compile
 
 ```powershell
-c:\windows\microsoft.net\framework64\v4.0.30319\csc.exe /out:.\httpserver.exe .\SimpleHttpServer.exe
+c:\windows\microsoft.net\framework64\v4.0.30319\csc.exe /out:.\httpserver.exe .\SimpleHttpServer.cs
 
 # or
 
